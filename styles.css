@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-
 }
 
 header {
@@ -16,6 +16,14 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.freecodecamp-logo {
+    filter: invert(100%);
 }
 
 main {
@@ -55,6 +63,16 @@ main {
     width: 100%;
     text-align: center;
     height: 400px;
+}
+
+.blank-screen input {
+    width: 250px;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+.blank-screen input:focus {
+    outline: none;
 }
 
 .blank-screen p {
